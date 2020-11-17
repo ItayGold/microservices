@@ -3,7 +3,7 @@ package com.in28minutes.microservices.currencyexchangeservice;
 import java.math.BigDecimal;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import org.springframework.data.annotation.Id;
+import javax.persistence.Id;
 
 @Entity
 public class ExchangeValue {
