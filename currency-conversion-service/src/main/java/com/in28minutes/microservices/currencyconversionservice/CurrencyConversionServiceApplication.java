@@ -12,12 +12,12 @@ import org.springframework.context.annotation.Bean;
 @EnableDiscoveryClient
 public class CurrencyConversionServiceApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(CurrencyConversionServiceApplication.class, args);
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(CurrencyConversionServiceApplication.class, args);
+  }
 
-	@Bean
-	public AlwaysSampler defaultSampler() {
-		return new AlwaysSampler();
-	}
+  @Bean
+  public AlwaysSampler defaultSampler() {
+    return new AlwaysSampler();
+  }
 }
